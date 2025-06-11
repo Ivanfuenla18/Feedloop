@@ -1,12 +1,65 @@
-# React + Vite
+💡 Proyecto: Plataforma de Feedback Anónima para Equipos
+Nombre sugerido: Feedloop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🧩 Descripción:
+Una aplicación web donde los miembros de un equipo pueden enviar feedback anónimo o identificado entre ellos. Ideal para entornos de trabajo colaborativos, equipos remotos o startups. Incluye paneles de administración, seguimiento de tendencias y gestión de usuarios.
 
-Currently, two official plugins are available:
+🧱 Stack:
+Frontend: React + Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Backend: Node.js + Express
 
-## Expanding the ESLint configuration
+Base de datos: MongoDB o PostgreSQL
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Autenticación: JWT y OAuth (Google)
+
+Despliegue: Vercel (frontend) + Render o Railway (backend)
+
+🔑 Funcionalidades clave:
+👥 Usuario
+Registro e inicio de sesión (OAuth + Email/Password)
+
+Enviar feedback anónimo o firmado
+
+Ver feedback recibido
+
+Calificar feedback recibido (👍 / 👎)
+
+🛠️ Admin (dashboard)
+Ver todos los feedbacks de la organización
+
+Filtrar por usuario, fecha, etiquetas
+
+Analíticas: gráficos de feedback positivo vs negativo
+
+Gestión de usuarios (activar/desactivar cuentas)
+
+📈 Qué demostrarás a empresas:
+Diseño UI/UX moderno con Tailwind
+
+Uso de componentes reutilizables
+
+Integración fullstack con APIs REST
+
+Buenas prácticas de seguridad (auth, rate limiting)
+
+Diseño escalable (separación frontend/backend)
+
+Testing básico (opcional pero recomendado)
+
+🎁 Bonus ideas:
+Modo oscuro
+
+Notificaciones en tiempo real (Socket.io)
+
+Exportar feedbacks en PDF o CSV
+
+Sistema de etiquetas y categorías
+
+Si quieres, te puedo ayudar a:
+
+Esbozar el diseño UI
+
+Generar el esquema de base de datos
+
+Crear la estructura inicial del código
