@@ -1,4 +1,4 @@
-const db = require("../db"); // Importa tu conexión de base de datos
+const db = require("../db/db"); // Importa tu conexión de base de datos
 
 const Feedback = {};
 

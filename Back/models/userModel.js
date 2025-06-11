@@ -1,5 +1,5 @@
 // models/userModel.js
-const db = require("../db"); // Importa tu conexión de base de datos
+const db = require("../db/db"); // Importa tu conexión de base de datos
 
 const User = {}; // Este es tu objeto "Modelo"
 

@@ -1,7 +1,7 @@
 // index.js
 const express = require("express");
 const cors = require("cors");
-const db = require("./db"); // Asegúrate de que esta conexión a la BD esté funcionando
+const db = require("./db/db"); // Asegúrate de que esta conexión a la BD esté funcionando
 const userRoutes = require("./routes/user");
 const feedbackRouter = require("./routes/feedback"); // Nombre más consistente con el router
 
